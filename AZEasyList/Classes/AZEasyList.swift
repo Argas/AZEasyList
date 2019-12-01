@@ -60,7 +60,7 @@ public extension AZAnyModel where Self: ViewAssociateable, Self.View: AZAnyModel
 
 // MARK: - Utils
 
-final class TypeDescriptor {
+public final class TypeDescriptor {
     public static func key(from item: Any) -> String {
         return String(reflecting: type(of: item))
     }

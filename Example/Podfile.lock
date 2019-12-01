@@ -1,27 +1,16 @@
 PODS:
   - AZEasyList (0.1.0)
-  - Nimble (7.3.4)
-  - Quick (1.2.0)
 
 DEPENDENCIES:
   - AZEasyList (from `../`)
-  - Nimble (~> 7.0)
-  - Quick (~> 1.2.0)
-
-SPEC REPOS:
-  trunk:
-    - Nimble
-    - Quick
 
 EXTERNAL SOURCES:
   AZEasyList:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AZEasyList: 896920311118b5c42179d1c779f9bb29bd180ac5
-  Nimble: 051e3d8912d40138fa5591c78594f95fb172af37
-  Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
+  AZEasyList: 5efc0658925e6e006324b013472d852c66f146dd
 
-PODFILE CHECKSUM: f64e644c161cb57e0886ebd0aff14f1f5872b281
+PODFILE CHECKSUM: c53757f228767b20cd175ef55afd31b46ec83114
 
 COCOAPODS: 1.8.4
