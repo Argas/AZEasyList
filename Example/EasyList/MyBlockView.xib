@@ -20,7 +20,7 @@
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L8Y-rn-xD3" customClass="AZContainerView" customModule="EasyList">
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L8Y-rn-xD3" customClass="AZContainerView" customModule="AZEasyList">
                     <rect key="frame" x="0.0" y="78.5" width="414" height="160.5"/>
                     <color key="backgroundColor" systemColor="separatorColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.28999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
                 </view>

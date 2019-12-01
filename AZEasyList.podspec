@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.name             = 'AZEasyList'
   s.version          = '0.1.0'
   s.summary          = 'Draws UI in the UITableView or stackView from the models'
-
+  s.swift_versions = ['4.2', '5.0', '5.1']
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
@@ -18,10 +18,11 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-Draws UI in the UITableView or stackView from the models
+Draws UI in the UITableView or stackView from the models.
+It can draw view graph from the models graph
                        DESC
 
-  s.homepage         = 'https://github.com/argas.91@gmail.com/AZEasyList'
+  s.homepage         = 'https://github.com/Argas/AZEasyList'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Aleksey Zverev' => 'argas.91@gmail.com' }
