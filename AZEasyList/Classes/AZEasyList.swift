@@ -24,6 +24,7 @@ extension AZAnyModelConfigurableView where Self: UIView, Self: AZConfigurable {
     public func configure(with item: AZAnyModel) {
         guard let model = item as? Self.Model else {
             assert(false, "model is not \"\(Self.Model.self)\" type")
+            return
         }
         self.configure(with: model)
     }
