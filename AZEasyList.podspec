@@ -26,7 +26,7 @@ It can draw view graph from the models graph
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Aleksey Zverev' => 'argas.91@gmail.com' }
-  s.source           = { :git => 'https://github.com/argas.91@gmail.com/AZEasyList.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Argas/AZEasyList.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
