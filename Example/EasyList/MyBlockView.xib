@@ -25,7 +25,6 @@
                     <color key="backgroundColor" systemColor="separatorColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.28999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
                 </view>
             </subviews>
-            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="L8Y-rn-xD3" secondAttribute="bottom" constant="20" id="4m9-v4-48Y"/>
                 <constraint firstItem="v1J-vd-qVp" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="topMargin" id="BXC-xt-Lnz"/>

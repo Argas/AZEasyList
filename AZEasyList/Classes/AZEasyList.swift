@@ -84,3 +84,15 @@ final class ViewMaker {
         return result
     }
 }
+//
+//extension AZAnyModel {
+//    mutating func make(tap: @escaping Action) {
+//        let t = Tap(tapAction: tap, model: self)
+////        self = t
+//    }
+//}
+//
+//struct Tap {
+//    var tapAction: Action?
+//    var model: AZAnyModel
+//}
