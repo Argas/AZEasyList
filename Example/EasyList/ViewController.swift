@@ -19,6 +19,8 @@ final class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        table.backgroundColor = UIColor.gray
+        
         // 3. Set Models
         adapter.set(items: itms)
         
@@ -31,8 +33,9 @@ final class ViewController: UIViewController {
         var arr: [AZAnyModel] = []
         for i in 0..<100 {
             let content: AZAnyModel = i%3 == 0 ? NestedView.Model(text: "blah") : NestedView2.Model()
-            let model = MyBlockView.Model(title: "Заголовок №\(i)", container: content)
-            
+            let model = MyBlockView.Model(title: "Заголовок №\(i)", container: content) {
+                print("\(i) TAPPED")
+            }
             arr.append(model)
         }
         
@@ -52,7 +55,7 @@ class MyBlockView: AZView {
         container.configure(with: model.container)
     }
     
-    struct Model: AZModel {
+    struct Model: AZModel, AZActionAvailable {
         typealias View = MyBlockView
         
         var title: String
@@ -60,6 +63,8 @@ class MyBlockView: AZView {
         var reuseId: String {
             return TypeDescriptor.key(from: self) + container.reuseId
         }
+        var tapAction: AZAction
+
     }
 }
 

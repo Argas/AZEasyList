@@ -1,5 +1,5 @@
 PODS:
-  - AZEasyList (0.1.0)
+  - AZEasyList (0.0.3)
 
 DEPENDENCIES:
   - AZEasyList (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AZEasyList: 978b6ada7abf5676d65d3c2d8598e49f99c56d96
+  AZEasyList: 028f7366ccf709d5974c4c1512bd87d9924dbed8
 
 PODFILE CHECKSUM: c53757f228767b20cd175ef55afd31b46ec83114
 

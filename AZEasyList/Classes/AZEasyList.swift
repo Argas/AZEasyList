@@ -38,6 +38,12 @@ public protocol ViewAssociateable {
     associatedtype View: UIView where View: AZConfigurable
 }
 
+public typealias AZAction = () -> Void
+
+public protocol AZActionAvailable {
+    var tapAction: AZAction { get set}
+}
+
 public protocol AZAnyModel {
     func cellType() -> UITableViewCell.Type
     func viewType() -> UIView.Type

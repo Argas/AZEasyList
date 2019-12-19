@@ -47,6 +47,8 @@ extension AZTableAdapter: UITableViewDelegate, UITableViewDataSource {
             cell = tableView.dequeueReusableCell(withIdentifier: item.reuseId, for: indexPath)
         }
         
+        cell.backgroundColor = .clear
+        
         // 3. Configure cell
         
         if let gc = cell as? CellViewContainer {
@@ -54,6 +56,11 @@ extension AZTableAdapter: UITableViewDelegate, UITableViewDataSource {
         }
         
         return cell
+    }
+    
+    public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let item = items[indexPath.row]
+        (item as? AZActionAvailable)?.tapAction()
     }
     
     public func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
