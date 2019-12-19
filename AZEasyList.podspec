@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AZEasyList'
-  s.version          = '0.0.4'
+  s.version          = '0.0.5'
   s.summary          = 'Draws UI in the UITableView or stackView from the models'
   s.swift_versions = ['4.2', '5.0', '5.1']
 # This description is used to generate tags and improve search results.
