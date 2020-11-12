@@ -7,9 +7,9 @@
 
 import Foundation
 
-protocol ViewFromNibLoadable {}
+public protocol ViewFromNibLoadable {}
 extension UIView: ViewFromNibLoadable {}
-extension ViewFromNibLoadable where Self: UIView {
+public extension ViewFromNibLoadable where Self: UIView {
     static func makeFromNibOrInit() -> Self {
         return canBeLoadedFromNib() ? makeFromNib() : Self.init(frame: .zero)
     }
